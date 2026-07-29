@@ -1,7 +1,10 @@
-# Muhammed Akheel L C | Cybersecurity Researcher
+# Akheel | BUILD HACK SECURE
 
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=1000&center=true&vCenter=true&width=700&lines=Cybersecurity+Researcher;VAPT+%7C+Bug+Bounty+%7C+SOC+Operations;Building+security+labs%2C+tools+and+training+platforms" alt="Typing SVG" />
+</p>
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=1000&center=true&vCenter=true&width=700&lines=Cybersecurity+Researcher;VAPT+%7C+Bug+Bounty+%7C+SOC+Operations;Building+security+labs%2C+tools+and+training+platfor" window.location='https://google.com' />
 </p>
 
 <p align="center">
